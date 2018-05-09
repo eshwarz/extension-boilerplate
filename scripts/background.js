@@ -1,0 +1,6 @@
+let extension = new Extension();
+
+extension.onMessageListener((request, sender, sendResponse) => {
+    console.log('from background.js:', request, sender);
+    sendResponse({ received: true });
+});
