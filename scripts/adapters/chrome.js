@@ -1,4 +1,4 @@
-class Extension {
+class ChromeExtension {
 
     constructor() {
         this.tabs = new Tabs();
